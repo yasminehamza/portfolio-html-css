@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css"> 
+</head>
+<body>
+    <div id="container">
+      <div class="tete">
+      <nav>
+       <a href="#à-propos">à propos</a>
+       <a href="#compétences">Compétences</a>
+       <a href="#services">Services</a>
+       <a href="#contact">Contact</a>
+      </nav> 
+      <header >
+         <h1>Jasmin</h1>
+         <h2>Web Developer,designer</h2>
+         <hr>
+      </header>
+    </div>
+      <main>
+          <section class="a-propos">
+              <img class="welcome-pic" src="123.jpg" width="600px">
+              <div class="welcome">
+                <h2 class="center">About me</h2>
+                <p>Hello, I am Yasmine a web developer, designer and integrater.<br>
+                 you are welcome in my portfolio,<br> to know more just scroll down sections
+                </p>
+              </div>
+          </section>
+          <section class="comp">
+              <h3 id="compétences">Compétences</h3>
+              <div class="comp-pic">
+                 <img src="512px-HTML5_logo_and_wordmark.svg.png" width="100px">
+                 <img src="CSS3_logo_and_wordmark.svg.png"width="100px">
+                 <img src="bootstrap-4-logo-png-transparent.png"width="100px">
+                 <img src="WordPress_blue_logo.svg.png"width="100px">
+              </div><br><br>
+              <div class="progress">
+              <div><progress id="html" value="50" max="100">50%</progress></div>
+              <div><progress id="css" value="40" max="100">40%</progress></div>
+              <div><progress id="bootstrap" value="30" max="100">30%</progress></div>
+              <div><progress id="wordpress" value="30" max="100">30%</progress></div>
+              </div>
+          </section>
+          <section class="Ser">
+              <h3 id="services">Services</h3>
+              <div class="ser-pic">
+                 <img src="eewee-responsive-web-design-pc-tablette-smartphone.jpg">
+                 <img src="ecommerce1.jpg">
+             </div>
+          </section>
+        </main>
+        <footer>
+          <h3 id="contact">Contact</h3>
+          <section class="cont">
+              <div>
+                 <form action="Portfolio.html" method="GET"></form>
+                 <label for="name">Your Name:</label>
+                 <input type="text" id="name" name="name"><br>
+                 <label for="Surname">Your Surname</label>
+                 <input type="text" id="Surname" name="Surname"><br>
+                 <label for="mail">Your e-mail adress</label>
+                 <input type="email" id="email"name="email" pattern=".+@gmail.com"><br>
+                 <input type="submit" value="submit">
+                </form>
+              </div>
+              
+              <div class="contact-pic">
+               <img src="linkedin.jpg" width="50">
+               <img src="facebook.jpg" width="40">
+              </div>
+          </section>
+          
+        </footer>
+     
+    </div>
+</body>
+</html>
